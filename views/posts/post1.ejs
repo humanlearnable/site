@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <%- include('../partials/head') %>
+  <title> First Post | Clean Blog</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <%- include('../partials/navbar') %>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('/res/post1/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>This is the main post heading</h1>
+                        <h2 class="subheading">This is a subheading</h2>
+                        <span class="meta">Posted by <a href="#">rjm</a> on March 1, 2017</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>This is a paragraph.</p>
+                    <p>Here is some maths \( \int \dfrac{x}{2} \mathrm{d} x \)</p>
+
+                    <p>This is a second paragraph</p>
+
+                    <h2 class="section-heading">Here is a section heading</h2>
+
+                    <p>Some text.</p>
+
+                    <blockquote>Here is something interesting that someone said.</blockquote>
+
+                    <a href="#">
+                        <img class="img-responsive" src="/res/post1/post-sample-image.jpg" alt="">
+                    </a>
+                    <span class="caption text-muted">This is an image caption.</span>
+
+                    <p>Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <%- include('../partials/footer') %>
+
+</body>
+
+</html>
