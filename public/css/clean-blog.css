@@ -455,5 +455,6 @@ body {
 }
 
 .post-page {
-  background-color: #6d7986;
+  /*background-color: #6d7986;*/
+  background: linear-gradient(to right, rgb(109, 121, 134), rgb(109, 151, 134));
 }
