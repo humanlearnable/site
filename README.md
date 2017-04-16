@@ -48,9 +48,9 @@ node app.js
 
 or to run forever
 
-`forever start --spinSleepTime 1000 server.js`
+`forever start --spinSleepTime 1000 app.js`
 
-Now browse to `http://127.0.0.1:8080` to view the site.
+Now browse to `http://127.0.0.1:8090` to view the site.
 
 ## Writing a post
 
