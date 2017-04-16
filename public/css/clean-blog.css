@@ -153,20 +153,22 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  text-shadow: 0 1px 1px #111111;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  padding: 70px 0px 10px 0px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
+
 .intro-header .site-heading,
 .intro-header .page-heading {
   text-align: center;
@@ -404,4 +406,54 @@ img::-moz-selection {
 }
 body {
   -webkit-tap-highlight-color: #0085A1;
+}
+
+
+/* Customisations */
+.intro-header .site-heading,
+{
+  padding: 60px 0px 0px 0px;
+  color: white;
+  background-color: #cb3837;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading {
+    padding: 60px 0px 0px 0px;
+  }
+}
+
+.intro-header .us-image {
+  padding: 40px 0px 40px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro-header us-image {
+    padding: 40px 0px 40px 0px;
+  }
+}
+
+.intro-header {
+  background-repeat: no-repeat;
+}
+
+
+
+.home-page {
+  /*background-color: #cb3837;*/
+  background: linear-gradient(to right, rgb(205, 56, 55), rgb(135, 56, 25));
+}
+
+.about-page {
+  background: linear-gradient(to right, rgb(69, 53, 101), rgb(39, 53, 71));
+  /*background-color: #273547;*/
+}
+
+.contact-page {
+  /*background-color: #1A8BCB;*/
+  background: linear-gradient(to right, rgb(58, 123, 213), rgb(58, 96, 115));
+
+}
+
+.post-page {
+  background-color: #6d7986;
 }
